@@ -2,23 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hot Golpos</title>
-    <link rel="stylesheet" href="/index.css">
+    <title>Hot-Golpos - create for everyone</title>
+    <link rel="icon" href="./image/logo-modified.png" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <h1>h1</h1>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quae
-      omnis sapiente exercitationem excepturi illo iusto fugit dolorem corrupti.
-      Alias voluptates ducimus molestiae quam fugit vero sint, aliquam id
-      deleniti.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, libero
-      quaerat aut facere quasi, dolores distinctio labore ratione molestiae esse
-      totam deleniti, voluptates laboriosam a tempore cum sit expedita
-      praesentium?
-    </p>
+    <nav>
+      <div class="main-nav container flex">
+        <a href="#" onclick="reload()" class="company-logo">
+          <img src="./image/logo-modified.png" alt="company logo" />
+        </a>
+        <div class="nav-links">
+          <ul class="flex">
+            <li
+              class="hover-link nav-item"
+              id="ipl"
+              onclick="onNavItemClick('ipl')"
+            >
+              জনপ্রয় গল্প
+            </li>
+            <li
+              class="hover-link nav-item"
+              id="finance"
+              onclick="onNavItemClick('finance')"
+            >
+              জনপ্রয় লেখক
+            </li>
+            <li
+              class="hover-link nav-item"
+              id="politics"
+              onclick="onNavItemClick('politics')"
+            >
+              গল্প লিখে পাঠান
+            </li>
+          </ul>
+        </div>
+        <div class="search-bar flex">
+          <input
+            id="search-text"
+            type="text"
+            class="news-input"
+            placeholder="সার্চ করুন "
+          />
+          <button id="search-button" class="search-button">Search করুন</button>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
+ 
