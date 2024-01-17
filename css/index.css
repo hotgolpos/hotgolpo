@@ -63,6 +63,7 @@ nav {
 
 .hover-link {
     cursor: pointer;
+    font-weight: bold;
 }
 
 .hover-link:hover {
@@ -104,106 +105,3 @@ nav {
 .search-button:hover {
     background-color: var(--accent-color-dark);
 }
-
-/* -------------------------------nav end------------- */
-/* ----------------------------------body start ------------ */
-.container2 {
-    /* position: absolute; */
-    display: flex;
-    margin-top: 140px;
-}
-
-.ads {
-    width: 19%;
-    position: relative;
-}
-
-.main_golpo {
-    width: 50%;
-    position: relative;
-    margin-right: 3%;
-    margin-left: 3%;
-
-}
-
-.ads2 {
-    width: 25%;
-    position: relative;
-
-}
-
-.card {
-    width: 100%;
-    box-shadow: 1px 1px 4px 4px rgb(12, 11, 9);
-    border-radius: 3.5px 3.55px 3px 3px;
-    background-color: #7bdcb5;
-    margin-bottom: 5px;
-}
-
-/* ----------------------------------body end ------------ */
-/* ---------------------------------footer start---------------- */
-.footer {
-    background-color: #181919;
-    width: 100%;
-    display: flex;
-}
-
-.left-footer {
-    width: 30%;
-}
-
-.right-footer {
-    width: 60%;
-}
-
-.left-footer p {
-    margin-top: 30px;
-    text-align: center;
-}
-
-.left-footer .sub-title {
-    text-align: center;
-}
-
-.social-icons {
-    margin-top: 30px;
-}
-
-.social-icons a {
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: #ababab;
-    display: inline-block;
-}
-
-.social-icons :hover {
-    color: #ff004f;
-}
-
-
-form input,
-form textarea {
-    width: 100%;
-    border: 2px;
-    background: #4d4b4b;
-    padding: 15px;
-    margin: 15px 0;
-    color: #fff;
-    font-size: 12px;
-    border-radius: 6px;
-}
-
-form .btn {
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* ------------------------------------footer end-------------------- */
