@@ -186,10 +186,10 @@ form input,
 form textarea {
     width: 100%;
     border: 2px;
-    background: #4d4b4b;
+    background: #f9f9f9;
     padding: 15px;
     margin: 15px 0;
-    color: #fff;
+    color: #420404;
     font-size: 12px;
     border-radius: 6px;
 }
@@ -206,4 +206,10 @@ form .btn {
     margin-right: auto;
 }
 
+.sub-title{
+    color: #2294ed;
+}
+.footer p{
+    color: #2294ed;
+}
 /* ------------------------------------footer end-------------------- */
